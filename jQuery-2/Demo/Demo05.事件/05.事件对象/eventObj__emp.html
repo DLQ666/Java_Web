@@ -4,20 +4,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <style type="text/css">
-
 	#areaDiv {
 		border: 1px solid black;
 		width: 300px;
 		height: 50px;
 		margin-bottom: 10px;
 	}
-	
 	#showMsg {
 		border: 1px solid black;
 		width: 300px;
 		height: 20px;
 	}
-
 </style>
 <script type="text/javascript" src="jquery-1.7.2.js"></script>
 <script type="text/javascript">
@@ -34,7 +31,6 @@
 		// 	console.log(event);
 		// });
 		//3.使用bind同时对多个事件绑定同一个函数。怎么获取当前操作是什么事件。
-
 		$("#areaDiv").bind("mouseover mouseout",function (event) {
 			if (event.type == "mouseover") {
 				console.log("鼠标移入");
@@ -42,12 +38,7 @@
 				console.log("鼠标移出");
 			}
 		});
-
-
 	});
-
-
-
 </script>
 </head>
 <body>

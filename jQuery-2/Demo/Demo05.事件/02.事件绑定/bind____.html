@@ -11,6 +11,9 @@
 				// $("h5").click(function () { // 传function是绑定事件
 				// 	alert('h5单击事件 == click方法绑定')
 				// });
+				// $("button").click(function () {
+				// 	$("h5").click(); // 不传function是触发事件
+				// });
 
 				// 使用live绑定的单击事件
 				$("h5").live("click",function () {
@@ -19,9 +22,6 @@
 
 				$('<h5 class="head">什么是jQuery?</h5>').appendTo( $("#panel") );
 
-				// $("button").click(function () {
-				// 	$("h5").click(); // 不传function是触发事件
-				// });
 				//鼠标移入
 				// $("h5").mouseover(function () {
 				// 	console.log("你进来了")
@@ -41,10 +41,7 @@
 				// });
 
 				// $("h5").unbind();
-
-
 			});
-		
 		</script>
 	</head>
 	<body>
