@@ -1,4 +1,4 @@
-package com.dlq.cookie;
+package com.dlq.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
